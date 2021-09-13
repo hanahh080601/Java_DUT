@@ -1,0 +1,5 @@
+HV11223340Nguyen Van A                                      20/11/1990Nam9.5
+HV11223341Nguyen Van B1                                     21/11/1990Nu 9.5
+HV11223342Nguyen Van C23                                    22/11/1990Nam9.5
+HV11223343Nguyen Van D345                                   23-11-1990Nu 1.0
+HV11223344Nguyen Van Ket Thuc                               31/02/1990Nam11.0

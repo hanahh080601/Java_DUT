@@ -1,0 +1,4 @@
+Dong 1: Loi dinh dang Level!
+Dong 4: Loi dinh dang Level!
+Dong 6: Loi diem thuong vuot qua 500!
+Dong 6: Loi khong ton tai ma thanh vien trong CSDL!
