@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//src/CalculationTCP/ClientCalculationTCP.java=UTF-8
+encoding//src/CalculationTCP/ServerCalculationTCP.java=UTF-8
+encoding//src/CalculationUDP/ClientCalculationUDP.java=UTF-8
+encoding//src/ChatTCP/ChatMessage.java=UTF-8
+encoding//src/ChatTCP/Client.java=UTF-8
+encoding//src/ChatTCP/ClientGUI.java=UTF-8
+encoding//src/ChatTCP/Server.java=UTF-8
+encoding//src/ChatUDP/ChatClientUDP.java=UTF-8
+encoding//src/ChatUDP/ChatServerUDP.java=UTF-8
+encoding//src/StringTCP/ClientStringTCP.java=UTF-8
+encoding//src/StringTCP/ServerStringTCP.java=UTF-8
+encoding//src/StringUDP/ClientStringUDP.java=UTF-8
+encoding//src/StringUDP/ServerStringUDP.java=UTF-8
