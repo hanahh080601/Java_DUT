@@ -18,18 +18,20 @@
 		String url = "jdbc:mysql://127.0.0.1:3306/dulieu";
 		Connection con = (Connection) DriverManager.getConnection(url, "root", "");
 		Statement stmt = (Statement) con.createStatement();
-		PreparedStatement ps;
 		String sql = "SELECT * FROM admin where username = '" + username + "' and pass = '" + password + "'";
 		ResultSet rs = stmt.executeQuery(sql);
 		
-		if (rs.wasNull()) {
-			response.sendRedirect("login.jsp");
-		} else {
+		if (rs.next()) {
 			request.setAttribute("address", address);
 			RequestDispatcher rd = request.getRequestDispatcher("welcome.jsp");
 			rd.forward(request, response);
 			rs.close();
 			stmt.close();
+		} 
+		else {
+			rs.close();
+			stmt.close();
+			response.sendRedirect("login.jsp");
 		}
 	}
 	catch(Exception a)
